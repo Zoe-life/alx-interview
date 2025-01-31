@@ -1,4 +1,18 @@
 #!/usr/bin/python3
+"""
+This module defines a function to determine the winner of a prime game.
+
+The game is played between Maria and Ben. Given a set of consecutive integers
+starting from 1 up to and including n, they take turns choosing a prime number
+from the set and removing that number and its multiples from the set.
+The player that cannot make a move loses the game.
+
+The module contains the function `isWinner(x, nums)` which takes the number
+of rounds and a list of n values for each round as input. It returns the name
+of the player with the most wins ("Maria" or "Ben"). If there's a tie,
+it returns None.
+"""
+
 
 def isWinner(x, nums):
     """
