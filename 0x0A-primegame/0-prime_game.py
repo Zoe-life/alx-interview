@@ -2,7 +2,7 @@
 
 def isWinner(x, nums):
     """
-    Determines the winner of a prime game played multiple rounds.
+    Determines the winner of a prime game played over multiple rounds.
 
     Args:
         x: The number of rounds.
